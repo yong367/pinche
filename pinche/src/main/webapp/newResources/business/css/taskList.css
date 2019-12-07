@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    width:1190px ;
+    height: 1000px;
+    background: #F5F5F9;
+}
+#headText{
+    width: 1190px;
+    height: 40px;
+    line-height: 40px;
+    /*background:rebeccapurple;*/
+    background: white;
+}
+#headText p{
+    margin-left: 25px;
+    font-size: 14px;
+}
+#headText p span:nth-child(1){
+    color: #8D8D8D;
+}
+#headText p span:nth-child(2){
+    color: #5A5A5A;
+}
+/*查询输入框*/
+#box #selectInput{
+    width: 1145px;
+    height: 195px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: white;
+}
+#selectInput span{
+    font-size: 14px;
+}
+#selectInput .numInp{
+    width: 145px;
+    height: 35px;
+    border-radius:5px;
+    border: 1px solid #D9D9D9;
+}
+#selectInput .textInp{
+    width: 205px;
+    height: 35px;
+    border-radius:5px;
+    border: 1px solid #D9D9D9;
+}
+#selectInput p{
+   padding-top: 20px;
+}
+#selectInput p span{
+    margin-left: 25px;
+}
+#selectInput .btn input{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #169BD5;
+}
+table{
+    /*width: 1140px;*/
+    /*border: 1px solid red;*/
+    border-collapse: collapse;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 auto;
+}
+table a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #2727FF;
+}
+table tr td:nth-child(1),table tr td{
+    text-align: center;
+    width: 60px;
+    height: 55px;
+    border: 1px solid #F5F6F5;
+    border-left: 0;
+    border-right: 0;
+    border-right: 0;
+    background: white;
+  
+}
+table tr th{
+    text-align: center;
+    width: 60px;
+    height: 55px;
+    border: 1px solid #F5F6F5;
+    border-left: 0;
+    border-right: 0;
+    border-right: 0;
+    background: #A5C1DF;
+}
+/*table tr td{*/
+    /*border: 1px solid blueviolet;*/
+    /*border-left: 0;*/
+    /*border-right: 0;*/
+    /*height: 55px;*/
+/*}*/
+table tr td:nth-child(1){
+    border-left: 0;
+    border-right: 0;
+}
+table tr td:nth-child(2){
+    width: 140px;
+}
+table tr td:nth-child(3){
+    width: 115px;
+}
+table tr td:nth-child(4){
+    width: 190px;
+}
+table tr td:nth-child(5){
+    width: 90px;
+}
+table tr td:nth-child(6){
+    width: 95px;
+}
+table tr td:nth-child(7){
+    width:160px;
+    line-height: 55px;
+    text-align: left;
+}
+ .circleBox{
+  margin-top: 8px;
+}
+table tr td:nth-child(8){
+    width: 112px;
+}
+table tr td:nth-child(9){
+    width: 100px;
+}
+table tr td:nth-child(10){
+    width: 85px;
+}
+
+
+/*进度条*/
+
+tr td .pg{
+    width: 85px;
+}

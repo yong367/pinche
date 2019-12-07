@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #F2F2F2;
+}
+
+.top {
+    width: 7.5rem;
+    height: 0.8rem;
+    background:linear-gradient(86deg,rgba(150,100,111,1) 0%,rgba(107,107,138,1) 50%,rgba(217,124,117,1) 100%);
+    top: 0;
+    position: fixed;
+    z-index: 101;
+}
+
+.img {
+    width: 0.26rem;
+    height: 0.48rem;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.32rem;
+}
+
+.text {
+    position: absolute;
+    top: 0.12rem;
+    left: 2.92rem;
+    right: 2.94rem;
+    width: 1.64rem;
+    height: 0.56rem;
+    font-size: 0.4rem;
+    font-family: PingFangSC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.56rem;
+}
+
+.name {
+    width: 7.5rem;
+    height: 0.96rem;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: absolute;
+    top: 1.8rem;
+}
+
+.name span {
+    width: 1.4rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.26rem;
+    left: 0.32rem;
+}
+
+.name input {
+    width: 4.28rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #333;
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.26rem;
+    left: 2.04rem;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+.sfzid {
+    width: 7.5rem;
+    height: 0.96rem;
+    font-size: 0.32rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    background: #FFFFFF;
+    position: absolute;
+    top: 2.8rem;
+
+}
+
+.sfzid span {
+    width: 1.4rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.26rem;
+    left: 0.32rem;
+}
+
+.sfzid input {
+    width: 4.28rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: #333;
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.26rem;
+    left: 2.04rem;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+.sfzzm {
+    width: 4.86rem;
+    height: 3.06rem;
+    position: absolute;
+    top: 4.06rem;
+    left: 1.32rem;
+}
+
+.sfzzm .zm img,
+.sfzfm .fm img {
+    width: 4.86rem;
+    height: 3.06rem;
+}
+
+.sfzfm {
+    width: 4.88rem;
+    height: 3.08rem;
+    position: absolute;
+    top: 7.44rem;
+    left: 1.32rem;
+
+}
+
+.tijiao {
+    width: 6.4rem;
+    height: 0.96rem;
+    background:linear-gradient(-80deg,rgba(147,114,133,1) 0%,rgba(148,114,132,1) 100%);
+    box-shadow:0px 0.04rem 0.07rem 0px rgba(0, 0, 0, 0.33);
+    border-radius: 0.05rem;
+    position: absolute;
+    top: 10.9rem;
+    left: 0.56rem;
+}
+
+.tijiao p {
+    width: 0.74rem;
+    height: 0.5rem;
+    font-size: 0.36rem;
+    font-family: PingFangSC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.96rem;
+    margin: 0 auto;
+}
+
+#files {
+    width: 4.86rem;
+    height: 3.06rem;
+    position: absolute;
+    /*top: 0.06rem;
+    left: 0.32rem;*/
+    opacity: 0;
+}
+
+#fms {
+    width: 4.88rem;
+    height: 3.08rem;
+    position: absolute;
+    /*top: 0.4rem;
+    left: 0.1rem;*/
+    opacity: 0;
+}
+
+#prvid {
+    /*width: 4.86rem;
+     height: 3.06rem;*/
+}
+
+#area_tip {
+    z-index: 10;
+    position: fixed;
+    width: 7.5rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-family: PingFangSC;
+}
+
+.mb {
+    background-color: black;
+    filter: alpha(opacity=45);
+    -moz-opacity: 0.45;
+    -khtml-opacity: 0.45;
+    opacity: 0.45;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.con {
+    width: 5.6rem;
+    position: absolute;
+    top: 3.88rem;
+    left: 0.96rem;
+    z-index: 101;
+    height: 4.76rem;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 0.2rem;
+}
+
+.rz {
+    width: 1.64rem;
+    height: 0.56rem;
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: rgba(29, 171, 233, 1);
+    line-height: 0.56rem;
+    position: absolute;
+    top: 0.16rem;
+    left: 1.98rem;
+    color: #F96D15;
+}
+
+.conxq {
+    width: 6rem;
+    height: 3.32rem;
+    position: absolute;
+    top: 1rem;
+    font-size: 0.28rem;
+}
+
+.xm {
+    width: 2rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.24rem;
+    left: 0.32rem;
+}
+
+.sjh {
+    width: 3.42rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    position: absolute;
+    top: 0.84rem;
+    left: 0.32rem;
+}
+
+.sfz {
+    width: 5.1rem;
+    height: 0.44rem;
+    font-size: 0.32rem;
+
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 0.44rem;
+    position: absolute;
+    top: 1.44rem;
+    left: 0.32rem;
+}
+
+.cs {
+    width: 4.96rem;
+    height: 0.8rem;
+    font-size: 0.28rem;
+
+    font-weight: 400;
+    color: rgba(255, 110, 101, 1);
+    line-height: 0.4rem;
+    position: absolute;
+    top: 2.96rem;
+    left: 0.32rem;
+}
+
+.anNiu {
+    width: 5.6rem;
+    height: 0.94rem;
+    border-top: 0.02rem solid #F2F2F2;
+    position: absolute;
+    top: 3.85rem;
+    left: 0;
+}
+
+.a {
+    width: 2.8rem;
+    height: 0.9rem;
+    border-right: 0.02rem solid #F2F2F2;
+}
+
+.qr {
+    width: 0.74rem;
+    height: 0.5rem;
+    font-size: 0.36rem;
+
+    font-weight: 400;
+    color: rgba(73, 169, 240, 1);
+    line-height: 0.5rem;
+    position: absolute;
+    top: 0.22rem;
+    left: 3.84rem;
+}
+
+.xg {
+    width: 0.74rem;
+    height: 0.5rem;
+    font-size: 0.36rem;
+
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 0.5rem;
+    position: absolute;
+    top: 0.22rem;
+    left: 1.06rem;
+}

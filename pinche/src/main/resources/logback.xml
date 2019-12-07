@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property name="DEFAULT_FILE_PATH" value="c:/tmp/log/aibangban/default"/>
+	<property name="SERVER_FILE_PATH" value="c:/tmp/log/aibangban/server"/>
+    <property name="SUNING_FILE_PATH" value="c:/tmp/log/aibangban/suning"/>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="SERVER_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${SERVER_FILE_PATH}/server.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${SERVER_FILE_PATH}/server.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<appender name="DEFAULT_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${DEFAULT_FILE_PATH}/default.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${DEFAULT_FILE_PATH}/default.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<appender name="SUNING_SERVER_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${SUNING_FILE_PATH}/server/server.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${SUNING_FILE_PATH}/server/server.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>365</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="SUNING_SERVER_ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${SUNING_FILE_PATH}/error/error.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${SUNING_FILE_PATH}/error/error.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+			<!-- keep 30 days' worth of history -->
+			<maxHistory>365</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<root level="WARN">
+		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="DEFAULT_FILE"/>
+	</root>
+
+	<logger name="SERVER" level="info" additivity="false">
+		<appender-ref ref="SERVER_FILE"/>
+	</logger>
+
+	<logger name="SUNING_SERVER" level="info" additivity="false">
+		<appender-ref ref="SUNING_SERVER_FILE"/>
+	</logger>
+	<logger name="SUNING_SERVER_ERROR" level="info" additivity="false">
+		<appender-ref ref="SUNING_SERVER_ERROR_FILE"/>
+	</logger>
+</configuration>

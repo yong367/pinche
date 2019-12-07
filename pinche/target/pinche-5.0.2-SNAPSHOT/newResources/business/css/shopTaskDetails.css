@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+#box{
+    position: absolute;
+    width: 1140px;
+    left: 230px;
+    background: #F5F5F9;
+}
+#box #nav{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background: white;
+}
+#box #nav span:nth-child(1){
+    margin-left:20px;
+}
+#box #boxText{
+    width: 1140px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: white;
+}
+#box #boxText #boxTextFirst{
+    width: 100%;
+    height: 70px;
+}
+#box #boxText #boxTextFirst{
+    width: 100%;
+}
+#box #boxText #boxTextFirst span:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+#box #boxText #boxTextFirst span:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 20px;
+}
+#box #boxText #boxTextFirst input,#box #boxText #boxTextFirst button{
+    width: 76px;
+    height: 33px;
+    line-height: 33px;
+    border-radius:5px;
+    border: 1px solid black;
+    color: #000;
+    background: none;
+}
+#box #boxText #boxTextFirst input:hover{
+    cursor: pointer;
+}
+#box #boxText #boxTextFirst input:nth-child(6){
+    border: 1px solid red;
+    color:red;
+}
+#boxText #boxImgText{
+    width: 1140px;
+    height: 125px;
+}
+#boxText #boxImgText #imgBox{
+    width:125px;
+    height: 125px;
+    float: left;
+    margin-left: 40px;
+}
+#boxText #boxImgText #textBig{
+    width: 80%;
+    height: 125px;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+}
+#boxText #boxImgText #textBig .textBox{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+#boxText #boxImgText #textBig .textBox p:nth-child(2),
+#boxText #boxImgText #textBig .textBox p:nth-child(3)
+{
+    padding-top: 30px;
+}
+#box #threeBox{
+    display:flex;
+    width: 100%;
+    height: 145px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;   
+    text-align: center;
+}
+#box #threeBox div{
+    float: left;
+    width: 15%;
+    height: 80%;
+    color:white;
+    background: #2F9EF0;
+}
+#box #threeBox p:nth-child(1){
+    margin-top: 30px;
+}
+#box #threeBox p:nth-child(2){
+    font-size: 30px;
+}
+table{
+    width: 1135px;
+    height: 165px;
+    font-size: 14px;
+    color: #26267C;
+    text-align: center;
+}
+table tr{
+    height: 40px;
+}
+table tr td,th{
+    border: 1px solid #E9E9E9;
+}
+table tr td:nth-child(1),td:nth-child(3),td:nth-child(5){
+    width: 135px;
+    background: #F5F5F5;
+}
+table tr td:nth-child(2),td:nth-child(4),td:nth-child(6){
+    width: 240px;
+    background: #FFFFFF;
+}
+    

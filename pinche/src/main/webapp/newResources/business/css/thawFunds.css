@@ -1,0 +1,57 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+#box{
+    width: 80%;
+    height: 90%;
+    margin-top: 10px;
+}
+#box #top{
+    width: 100%;
+    height:6%;
+    font-size:1.4rem;
+    display: flex;
+    justify-content:space-between;
+}
+#box #top div{
+    width: 25rem;
+    height: 100%;
+    line-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box #top div input{
+    width: 25%;
+    height: 60%;
+    border-radius: 5px;
+    background: none;
+    border: none;
+}
+#box #top div #inText{
+    width:55%;
+    height: 55%;
+}
+#box #tbox{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-radius:5px;
+}
+#box #tbox tr{
+    height: 50px;
+}

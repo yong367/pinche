@@ -1,0 +1,181 @@
+{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;   @import
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    background: #3792D0;
+    font-family: arial;
+}
+body{
+    background:url("/newResources/business/images/firstPageImg/bg.png");
+}
+#logo{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    padding-top: 250px;
+}
+#logo img{
+    width: 200px;
+    height: 70px;
+}
+#fm{
+    margin-top: 20px;
+}
+#loginText{
+    width: 100%;
+    height: 350px;
+    /*background: #000;*/
+    /*text-align: center;*/
+}
+#loginText img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    vertical-align:middle;
+}
+.z{
+    width: 301px;
+    height: 49px;
+    /*background:#87BFE4;*/
+    line-height: 49px;
+    /*background:blue;*/
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top:10px;
+    opacity: 1;
+}
+#loginText p a{
+    text-decoration:underline;
+    letter-spacing: 1px;
+}
+#loginText div{
+    width: 301px;
+    height:50px;
+    line-height: 49px;
+    margin: 0 auto;
+    /*border: 1px solid white;*/
+    /*border-radius: 5px;*/
+    /*margin-top: 10px;*/
+    /*background: grey;*/
+}
+#loginText div .inp:nth-child(1){
+    width:240px;
+    height:48px;
+}
+#loginText div .inp:nth-child(2){
+    width: 120px;
+    height: 48px;
+}
+#loginText div .exe{
+
+    margin-left:40px;
+}
+#loginText div #phoneCode{
+    width: 120px;
+    height: 32px;
+    color:#1B9DD5;
+    font-weight: bold;
+    background: white;
+    border:1px solid white;
+    border-radius:5px;
+}
+#loginText div .inp{
+    box-shadow: 0 0 0 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background:none;
+    margin-left: 10px;
+    outline: none;
+    border: 0px;
+    /*color: white;*/
+}
+
+#loginText div .inp::placeholder{
+    color:lightgray;
+    font-size: 14px;
+}
+#loginText .text{
+    width: 301px;
+    height: 30px;
+    line-height: 30px;
+    /*background: black;*/
+    font-size: 14px;
+}
+#loginText .captcha-image {
+    width: 80px;
+    height: 34px;
+    margin-left: 20px;
+    vertical-align:middle;
+}
+
+#loginText #loginSubmit{
+    width:301px;
+    height: 49px;
+    line-height: 49px;
+    background:white;
+    border-radius: 5px;
+    /*margin: 0 auto;*/
+    text-align: center ;
+    outline: none;
+    border: 0px;
+}
+#loginText #loginSubmit input{
+    width: 301px;
+    height: 49px;
+    border-radius: 5px;
+    background:white;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-size: 16px;
+    color: #1B9DD5;
+    border: none;
+    text-align: center;
+}
+#loginText #loginRegister{
+    width:301px;
+    height: 49px;
+    line-height: 49px;
+    background:white;
+    border-radius: 5px;
+    /*margin: 0 auto;*/
+    text-align: center ;
+    outline: none;
+    border: 0px;
+}
+#loginText #loginRegister input{
+    width: 301px;
+    height: 49px;
+    border-radius: 5px;
+    background:white;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-size: 16px;
+    color: #1B9DD5;
+    border: none;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size:14px;
+    color: #A8DDF4;
+    text-align: center;
+}
+

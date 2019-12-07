@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pinche:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="pinche-5.0.2-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pinche:war exploded" />
+    </root>
+  </artifact>
+</component>

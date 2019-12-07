@@ -1,0 +1,47 @@
+/*公共底部导航*/
+
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-decoration: none
+}
+
+.nav {
+	width: 7.5rem;
+	height: 1rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.nav .navbar {
+	width: 100%;
+	height: 100%;
+}
+
+.nav .navbar li {
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+
+.nav .navbar img {
+	display: block;
+	width: 0.4rem;
+	margin: 0 auto;
+}
+
+.nav .navbar li .bar-hui {
+	font-size: 0.28rem;
+	color: #b9b5ea;
+}
+
+.nav .navbar li .bar-org {
+	font-size: 0.28rem;
+	color: #F26C00;
+}

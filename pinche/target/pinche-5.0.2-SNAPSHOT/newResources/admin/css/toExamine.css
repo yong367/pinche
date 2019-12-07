@@ -1,0 +1,295 @@
+#box{
+    width: 1240px;
+    height:660px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    border-left: 1px solid #EBEBEC;
+    border-right: 1px solid #EBEBEC;
+}
+#box div{
+    border-top:0.5px solid #EBEBEC;
+}
+#boxHead{
+    width: 1240px;
+    height: 102px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background: #D9ECFF;
+}
+#boxHeadLogo{
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 102px;
+    line-height: 102px;
+    margin-left:57px;
+}
+#boxHeadLogo img{
+    position: absolute;
+    top:10%;
+}
+#boxHeadText{
+    float: left;
+    margin-left: 25px;
+    width: 1060px;
+    height: 102px;
+}
+#boexHeadText p{
+    width: 1060px;
+    width: 50%;
+}
+#boxHeadText #textTop button{
+    width:80px;
+    height:30px;
+    border: none;
+    border-radius: 5px;
+    background:white;
+}
+#dy{
+    font-size: 16px;
+    font-weight: bold;
+    color: #488BD1;
+}
+#open{
+    font-size: 13px;
+    font-weight: bold;
+    color: #008000;
+}
+.s{
+    margin-left: 70px;
+    font-size: 14px;
+}
+
+/*商家信息*/
+#boxText{
+    width: 1240px;
+    height: 287px;
+}
+#boxText div div{
+    line-height: 40px;
+}
+#oDiv1,#oDiv3{
+    text-align: right;
+}
+#oDiv2 span{
+    padding-left: 5px;
+}
+#oDiv4 span{
+    padding-left: 5px;
+}
+#oDiv1 div{
+    width: 150px;
+    height: 40px;
+    color: #25267D;
+    font-size: 14px;
+    background: #F1F8FF;
+}
+#oDiv2 div{
+    width:470px;
+    height: 40px;
+    font-size: 14px;
+}
+#oDiv3 div{
+    width: 150px;
+    height: 40px;
+    color: #25267D;
+    font-size: 14px;
+    background: #F1F8FF;
+}
+#oDiv4 div{
+    width: 470px;
+    height: 40px;
+    font-size: 14px;
+}
+#oDiv1 div:nth-last-child(1){
+    width: 150px;
+    height: 43px;
+    border-bottom: 1px solid #EBEBEC;
+}
+#oDiv2 div:nth-last-child(1){
+    width: 470px;
+    height: 43px;
+    border-bottom: 1px solid #EBEBEC;
+}
+#oDiv3 div:nth-last-child(1){
+    border-bottom: 1px solid #EBEBEC;
+}
+#oDiv4 div:nth-last-child(1){
+    border-bottom: 1px solid #EBEBEC;
+}
+
+/*商家身份*/
+#boxFooterQy{
+    width: 1240px;
+    height: 240px;
+    margin-top: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+#boxFooterQy span{
+    margin-left: 5px;
+}
+#businessInformation{
+    width:1240px ;
+    height:40px;
+    line-height: 40px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background: #D9ECFF;
+}
+#businessInformation span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #488BD1;
+    padding-left: 15px;
+}
+#bigBox span{
+    padding-left: 5px;
+}
+#box1,#box2,#box3,#box4{
+    float: left;
+}
+#box1 div{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #25267D;
+    font-size: 14px;
+    text-align: right;
+    background:#F1F8FF;
+}
+#box2 div{
+    width: 470px;
+    height: 40px;
+    line-height: 40px;
+    font-size:14px;
+}
+#box3 div{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    color: #25267D;
+    font-size: 14px;
+    text-align: right;
+    background:#F1F8FF;
+}
+#box4 div{
+    width:470px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-size:14px ;
+}
+#box5{
+    width: 1240px;
+    height: 117px;
+}
+#box5 div{
+    width:1240px;
+    height:117px;
+    line-height: 110px;
+}
+#box5 div{
+    float: left;
+}
+#box5 div:nth-child(1){
+    width: 150px;
+    height: 117px;
+    text-align:right ;
+    color: #25267D;
+    font-size: 14px;
+    border-bottom: 1px solid #EBEBEC;
+    border-right: 1px solid #EBEBEC;
+}
+#box5 div:nth-child(2){
+    width: 1089px;
+    height: 117px;
+    border-bottom: 1px solid #EBEBEC;
+}
+
+
+
+
+/*店主身份信息*/
+#boxFooterGr{
+    width: 1240px;
+    height: 240px;
+    margin-top: 20px;
+    font-size:14px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+#boxFooterGr span{
+    margin-left: 10px;
+}
+#boxFooterGr div{
+    border: 0.5px solid #EBEBEC;
+}
+#shopkeeperIdentityInformation{
+    width:1240px ;
+    height:40px;
+    line-height: 40px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background: #D9ECFF;
+}
+#shopkeeperIdentityInformation span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #488BD1;
+    padding-left: 15px;
+}
+.shopMain1,.shopMain3{
+    width: 1240px;
+    height: 40px;
+}
+.shopMain2{
+    width: 1240px;
+    height:120px;
+}
+.shopMain1 div{
+    float: left;
+}
+.shopMain1 div:nth-child(1),.shopMain1 div:nth-child(3){
+    width: 150px;
+    height: 40px;
+    color: #25267D;
+    line-height: 40px;
+    text-align: right;
+}
+.shopMain1 div:nth-child(2),.shopMain1 div:nth-child(4){
+    width: 468px;
+    height: 40px;
+    line-height: 40px;
+}
+.shopMain2 div{
+    float: left;
+}
+.shopMain2 div:nth-child(1),.shopMain2 div:nth-child(3){
+    width: 150px;
+    height: 120px;
+    color: #25267D;
+    line-height: 120px;
+    text-align: right;
+}
+.shopMain2 div:nth-child(2),.shopMain2 div:nth-child(4){
+    width: 468px;
+    height: 120px;
+}
+.shopMain3 div{
+    float: left;
+}
+.shopMain3 div:nth-child(1){
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    color: #25267D;
+    border-bottom: 1px solid #EBEBEC;
+}
+.shopMain3 div:nth-child(2){
+    width: 1088px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #EBEBEC;
+}

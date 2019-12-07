@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{ margin:0; padding:0; list-style:none;}
+body{ font-size:12px; text-align:left;}
+img{ border:none;}
+a{ text-decoration:none;}
+.none { display:none;}
+
+.zhedie h3 { font-family: "Microsoft YaHei",微软雅黑; font-size:16px; background:#52bffe; height:43px; line-height:43px; padding-left:12px; padding: 10px;width: 158px;display: block;outline: none;margin: 0 auto;text-align: center;border-bottom: 1px solid #fff;color: white;}
+.zhedie h3 a{color:#fff;}
+.zhedie h3 a:hover{color:#ff9321; }
+.zhedie ul li { display:inline; }
+.zhedie ul li a { background:url(../images/bg1.png) no-repeat 200px 18px;  text-decoration:none; font-size:14px; color:#555; display:block;  height:43px;  line-height:43px; border-bottom:1px dotted #d2d2d2; }
+.zhedie ul li a.noline { border-bottom:none; }
+.zhedie ul li a:hover{ color:#8caf00; }
+.zhedie ul li a.selected:hover { color:#fff; }
+.zhedie ul li .selected { background-color:#8caf00;  background-position:200px -9px; color:#fff; }
+.zhedie ul li { border-top:1px solid #d2d2d2; display:inline-block; width:100%; position: relative; min-height:43px; _height:43px; z-index: 10; zoom:1 }
+.zhedie ul li h4 { cursor:pointer; background:url(../images/bg3.png) no-repeat 200px 18px; text-decoration:none; font-size:14px; color:#555; display:block;  line-height:43px; font-weight:normal; }
+.zhedie ul li.noline { border-bottom:none; }
+.zhedie ul li h4:hover { color:#0397ed; text-decoration:none; }
+.zhedie ul li.selected h4 { background-position:200px -37px; border-bottom:1px dotted #d2d2d2; }
+.zhedie ul li a { }
+.zhedie ul li .on a { color:#8caf00; font-weight:bold; }
+.zhedie ul li a:hover { color:#8caf00; text-decoration:none; }
+.bg-color { background-color:#8caf00; }
+.zhedie li .list-item { padding:5px 0; position:relative; zoom:1;height: auto;border-top:1px solid #d2d2d2;}
+.zhedie li .list-item p { padding-left:8px; background:url(../images/ico_li.png) no-repeat 60px center; }
+.zhedie li .list-item a { background:none;  border:none; color: #d1d1d1; display:block; text-align:center; vertical-align: center; font-size:12px; width:60px; height:30px; line-height:30px;}
+.zhedie li .list-item a:hover{ background:none; color:#52bffe; text-decoration:none;}
+.zhedie { border:1px solid #eaeaea;  zoom:1; width:221px; margin:0 auto;}
+.ser-online a { background:url(../images/bg_ser_online.jpg) no-repeat 0 0; margin-top:10px; height:75px; border:1px solid #eaeaea; display:block;}
+.neirong{width: 1002px;height:auto;padding: 0 1%; margin:0 auto;}
+.neirong li{font-size: 16px;font-weight: bold;width: 1002px;text-align: center;margin:20px 0px 0px 0px; list-style-type: none;color: #52bffe;}
+.neirong hr{  height:10px;border:none;border-top:1px solid #d1d1d1; margin-top: 20px}
+.neirong form{border: 0.5px solid #fff;}

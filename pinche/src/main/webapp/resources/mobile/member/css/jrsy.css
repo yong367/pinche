@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 7.5rem;
+	height: 13.34rem;
+	background: #F2F2F2;
+}
+
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	text-decoration: none
+}
+
+.top {
+	width: 7.5rem;
+	height: 0.8rem;
+	background: linear-gradient(126deg, rgba(150, 100, 111, 1) 0%, rgba(107, 107, 138, 1) 34%, rgba(217, 124, 117, 1) 100%);
+}
+
+.img {
+	width: 0.26rem;
+	height: 0.48rem;
+	position: absolute;
+	top: 0.16rem;
+	left: 0.32rem;
+}
+
+.text {
+	position: absolute;
+	top: 0.12rem;
+	left: 2.92rem;
+	right: 2.94rem;
+	width: 1.64rem;
+	height: 0.56rem;
+	font-size: 0.4rem;
+	font-family: PingFangSC;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	line-height: 0.56rem;
+}
+
+.sy_con {
+	width: 7.5rem;
+	height: 2.4rem;
+	background: linear-gradient(126deg, rgba(150, 100, 111, 0.8) 0%, rgba(107, 107, 138, 0.8) 34%, rgba(217, 124, 117, 0.8) 100%);
+}
+
+.sy_con .sy_tit {
+	width: 1.5rem;
+	height: 0.44rem;
+	font-size: 0.32rem;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 0.44rem;
+	padding-top: 0.44rem;
+	padding-left: 0.48rem;
+}
+
+.sy_con .sy_yuan {
+	width: 3rem;
+	height: 1rem;
+	font-size: 0.72rem;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 1rem;
+	padding-top: 0.24rem;
+	padding-left: 0.48rem;
+}
+
+.neirong {
+	width: 7.5rem;
+	height: 1.28rem;
+	background: rgba(255, 255, 255, 1);
+	margin-bottom: 0.02rem;
+}
+
+.neirong .nr {
+	width: 6.86rem;
+	height: 0.4rem;
+	margin: 0 auto;
+}
+
+.neirong .nr .time {
+	float: left;
+	/*width: 2rem;*/
+	height: 0.4rem;
+	font-size: 0.28rem;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+	line-height: 0.4rem;
+}
+
+.neirong .nr .yongJin {
+	float: right;
+	/*width: 2.4rem;*/
+	height: 0.4rem;
+	font-size: 0.28rem;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: rgba(55, 142, 215, 1);
+	line-height: 0.4rem;
+}
+
+.renwu {
+	width: 6.86rem;
+	height: 0.4rem;
+	font-size: 0.28rem;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(153, 153, 153, 1);
+	line-height: 0.4rem;
+	margin: 0 auto;
+}

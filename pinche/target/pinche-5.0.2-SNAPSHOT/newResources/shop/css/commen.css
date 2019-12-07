@@ -1,0 +1,106 @@
+/*公共底部导航*/
+.nav {
+	width: 7.5rem;
+	height: 1rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+
+.nav .navbar {
+	width: 100%;
+	height: 100%;
+}
+
+.nav .navbar li {
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+
+.nav .navbar li .icon {
+	width: 100%;
+	height: 0.5rem;
+	margin-bottom: 0.05rem;
+}
+
+.nav .navbar li .bar1 {
+	background: url(../images/bar1.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar1-1 {
+	background: url(../images/bar1-1.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar2 {
+	background: url(../images/bar2.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar2-2 {
+	background: url(../images/bar-2-2.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar3 {
+	background: url(../images/bar3.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar3-3 {
+	background: url(../images/bar3-3.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar4 {
+	background: url(../images/bar4.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar4-4 {
+	background: url(../images/bar4-4.png) no-repeat top;
+	background-size: contain;
+}
+.nav .navbar li .bar5 {
+	background: url(../images/bar5.png) no-repeat top;
+	background-size: contain;
+}
+
+.nav .navbar li .bar5-5 {
+	background: url(../images/bar5-5.png) no-repeat;
+	background-size: 50% 100%;
+}
+
+
+/*.nav .navbar li .bar5{
+    background: url(../img/common/bar5.png) no-repeat 50%;
+   text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+.nav .navbar li .bar5 img {
+	background: url(../img/common/bar5.png) no-repeat 50%;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	margin-left: 45px;
+}*/
+
+.nav .navbar li .bar-hui {
+	font-size: 0.28rem;
+	color: #959595;
+}
+
+.nav .navbar li .bar-org {
+	font-size: 0.28rem;
+	color: #F26C00;
+}
